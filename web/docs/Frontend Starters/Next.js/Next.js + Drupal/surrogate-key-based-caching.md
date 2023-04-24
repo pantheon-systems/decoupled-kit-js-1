@@ -22,7 +22,7 @@ installed.
 ```mermaid
 sequenceDiagram
 	participant A as Client
-    participant B as Next.js + drupal-kit
+    participant B as [Next.js](https://docs.pantheon.io/guides/decoupled/drupal-nextjs-frontend-starters/create) + drupal-kit
     participant C as Drupal
     A->>B: Request a page that fetches from Drupal
     B->>C: Add Pantheon-SKey header to request
